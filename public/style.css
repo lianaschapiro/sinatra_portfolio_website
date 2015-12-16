@@ -8,13 +8,12 @@
 body {
 	background-image: url("images/wood.jpg");
 	background-size: cover;
+}
 
 #frontpage {
 	font-size: 100px;
 	margin: 180px;
-	opacity: 0.2;
 }
-
 
 
 nav {
