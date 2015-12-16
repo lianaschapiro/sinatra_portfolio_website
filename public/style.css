@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: #e0e0e0;
+}
+
+body {
+	background-image: url("images/wood.jpg");
+	background-size: cover;
+
+#frontpage {
+	font-size: 100px;
+	margin: 180px;
+	opacity: 0.2;
+}
+
+
+
+nav {
+	height: 75px;
+	background-color: rgba(0, 0, 0, 0.5);
+	margin-bottom: 100px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+nav li{
+	list-style-type: none;
+	float: right;
+	font-size: 18px;
+	margin: 16px 18px 18px 0px;
+	padding: 7px 10px;
+}
+
+ a {
+ 	text-decoration: none;
+ }
+
+.main {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 130px;
+	padding: 20px;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 28px;
+}
+
+#contact {
+	width: 30%;
+	margin: 0 auto;
+	margin-top: 130px;
+	padding: 15px;
+}
+
+#contact li {
+	display: inline-block;
+	padding: 10px;
+}
+
+#travel {
+	padding-bottom: 20px;
+	margin-top: 130px;
+}
+#travel img {
+	height: 250px;
+	margin: 15px;
+	background-color: #ffffcc;
+	border: solid 1px black;
+}
+
+.travelpic {
+	padding: 10px;
+	background-color: #e0e0e0;
+	display: inline-block;
+	border: solid black 5px;
+	margin: 15px;
+	font-weight: bold;
+}
+
+.travelpic p {
+	color: black;
+}
+
+#travel h2 {
+	padding: 20px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+#portfolio {
+	margin-top: 130px;
+}
+
+#portfolio h2{
+	padding: 20px;
+	width: 40%;
+	margin: 0 auto;
+}
+
+#portfolio img {
+	height: 250px;
+	margin: 40px 45px 60px;
+	padding: 10px;
+	background-color: #e0e0e0;
+	border: 5px solid black;
+}
